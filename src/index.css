@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;900&family=Source+Code+Pro:ital@0;1&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap');
+
+body {
+  background-color: #fdfeff;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+}
+
+code {
+  font-family: 'Source Code Pro', Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav {
+  padding-top: 1rem ;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+nav ul {
+  margin-right: 2rem;
+}
+
+nav > ul li {
+  display: inline-block;
+  list-style: none;
+  margin: .6rem .4rem;
+  font-weight: 600;
+  color: rgb(22, 66, 83);
+}
+
+ul li {
+  list-style: none;
+  margin: 1rem .4rem;
+  color: rgb(204, 204, 204);
+}
