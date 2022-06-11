@@ -1,19 +1,19 @@
 
 import './App.css';
-import React,{useState,useEffect} from 'react';
+import React,{ useState , useEffect} from 'react';
 import Topics from './Topics';
 import {data} from './data'
 
 function fetchData() {
   return new Promise((resolve) => {
-    resolve({
-      title: data.title,
-      paragraph: data.paragraph
-    })
+    setTimeout(() => {
+      resolve({
+        title: data.title,
+        paragraph: data.paragraph
+      })},3000)
+    
   });
 }
-
-
 
 function App() {
   const [toggle,setToggle] = useState(true);
@@ -25,7 +25,6 @@ function App() {
       data => {
         setTitle(data.title);
         setParagraph(data.paragraph)
-        console.log('re-rendered!')
       }
     )
   },[])
@@ -36,6 +35,7 @@ function App() {
     } 
 
   return (
+    
     <div className='hero-section'>
       <h1>{title}</h1>
       <div className='container'>
