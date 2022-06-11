@@ -6,5 +6,5 @@ function Topics({courses,toggle}) {
       </div> 
   )
 }
-
+// 
 export default Topics

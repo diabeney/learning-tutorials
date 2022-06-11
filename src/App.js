@@ -19,7 +19,7 @@ function App() {
   const [toggle,setToggle] = useState(true);
   const [paragraph,setParagraph] = useState('Loading...');
   const [title,setTitle] = useState('Loading...');
-// The useEffect hook expects a function as an argument
+// The useEffect hook expects a function as an argument and it behaviour depends on the options you pass
   useEffect(() => {
     fetchData().then(
       data => {
