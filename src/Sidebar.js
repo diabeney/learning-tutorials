@@ -8,7 +8,6 @@ function Sidebar() {
 
    
   return (
-
       <>
         <ThemeContext.Provider value={{darkTheme,setDarkTheme}}>
             <SidebarContext/>

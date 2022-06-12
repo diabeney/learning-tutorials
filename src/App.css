@@ -9,6 +9,7 @@
   background-color: rgb(138, 53, 248);
   border-radius: 16px;
   box-shadow: 0px 5px 18px 0px rgba(175, 175, 175, 0.685);
+  transition: all 500ms ease-in-out;
 }
 
 
@@ -27,8 +28,8 @@ h2 {
 p{
   line-height: 20px;
   padding: 1rem .5rem;
-  color: #f1f3f3bb;
-  font-weight: 400;
+  color: #f1f3f3d0;
+  font-weight: 300;
 }
 
 .btn {
