@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Header from './Header';
 import Sidebar from './Sidebar';
+import Counter from './counter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,6 +13,7 @@ root.render(
     <Header />
     <App />
     <Sidebar />
+    <Counter />
   </React.StrictMode>
 );
 

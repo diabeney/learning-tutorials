@@ -10,7 +10,7 @@ function fetchData() {
       resolve({
         title: data.title,
         paragraph: data.paragraph
-      })},3000)
+      })},10)
     
   });
 }

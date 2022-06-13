@@ -1,7 +1,8 @@
 import React,{useState} from 'react'
 import SidebarContext from './sidebar-context';
 
-export const ThemeContext = React.createContext()
+
+export const ThemeContext = React.createContext('')
 
 function Sidebar() {
     const [darkTheme,setDarkTheme] = useState(false);

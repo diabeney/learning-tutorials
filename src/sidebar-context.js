@@ -17,8 +17,8 @@ export default function SidebarContext() {
 
   return (
      <div style={styles} className='hero-section'>
-        <h1 style={styles.color}>Sidebar</h1>
-        <p style={styles.color}>You may think this is suffering, No it is salvation. Smile, for even in death you have become children of Thanos</p>
+        <h1>Sidebar</h1>
+        <p>You may think this is suffering, No it is salvation. Smile, for even in death you have become children of Thanos</p>
         <button onClick={toggleTheme}   className='btn'>Dark Theme</button>
     </div>
   )

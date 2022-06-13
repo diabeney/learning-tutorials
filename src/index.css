@@ -41,3 +41,8 @@ ul li {
   margin: 1rem .4rem;
   color: rgb(204, 204, 204);
 }
+
+h3 {
+  font-size: 72px;
+  color: #fff
+}
